@@ -1,0 +1,131 @@
+* {
+    
+}
+
+.titlecontainer {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-size: 20px;
+}
+
+.listnavbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: gray;
+    font-size: 12px;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    box-sizing: border-box;
+    height: 50px;
+}
+
+.searchbox {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.searchbar {
+    width: 400px;
+    height: 20px;
+}
+
+.listnavbar {
+    display: flex;
+    justify-content: space-between;
+    color: gray;
+    font-size: 12px;
+}
+
+.itemscount {
+    font-weight: 800;
+    color: black
+}
+
+.orderlist {
+    display: flex;
+    gap: 5px;
+}
+
+.orderlist li:before {
+    content: "ㅣ";
+    color : gray;
+    margin-right: 5px;
+}
+
+.orderlist li:first-child:before {
+    content: '';
+}
+
+.orderlist li {
+    cursor: pointer;
+}
+
+.listcontainer {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+
+.listcontainer {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+.items {
+    display: flex;
+    flex-wrap: wrap;
+    gap : 55px;
+}
+
+.proditemcontainer {
+    width: 430px;
+}
+
+.itembox {
+    width: 430px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap : 10px;
+    margin : 50px 0;
+}
+
+.itemimg {
+    width: 430px;
+    height: 430px;
+}
+
+.imgbox {
+    width: 430px;
+    height: 430px;
+    overflow: hidden;
+    border-radius: 20px;
+}
+.itemimg:hover {
+    transition: transform 0.6s;
+    transform: scale(1.2);
+}
+
+.registercontainer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.registerbtn {
+    width: 150px;
+    height: 30px;
+    background-color: rgb(177, 220, 177);
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    border-radius: 5px;
+    cursor: pointer;
+}

@@ -1,0 +1,105 @@
+.footer_full_container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: rgb(58, 58, 58);
+  color: white;
+  height: 180px;
+  bottom: 0px;
+  min-width: 1400px;
+}
+
+.footer_first_container {
+  width: 1240px;
+}
+
+.footer_nav ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+.family_site_nav ul {
+  margin: 0;
+  margin-top: 10px;
+}
+.footer_nav_item {
+  display: inline-block;
+}
+
+.footer_nav_item::after {
+  display: inline-block;
+  color: #000;
+  content: "|";
+  font-size: 80%;
+  font-weight: bold;
+  padding: 0 10px;
+}
+
+.footer_second_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.family_site_container {
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.family_site_nav ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.family_site_nav_item {
+  font-size: larger;
+  display: inline-block;
+  padding-right: 10px;
+}
+
+.family_site_nav_item a {
+  color: rgb(145, 255, 163);
+  text-decoration: none;
+}
+
+.family_site_nav_item a::after {
+  display: inline-block;
+  color: #000;
+  content: "|";
+  font-size: 80%;
+  font-weight: bold;
+  padding-left: 10px;
+}
+
+.sns_group_nav ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.sns_item {
+  display: inline-block;
+  padding: 0px 5px;
+}
+
+.github_image {
+  width: 65px;
+  height: 65px;
+}
+
+.github_box ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.github_item {
+  font-size: larger;
+  display: inline-block;
+  vertical-align: middle;
+  padding-right: 10px;
+}
+
+.footer_third_container {
+  height: 65px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

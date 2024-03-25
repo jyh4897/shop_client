@@ -1,0 +1,7 @@
+.exchangeRate_container {
+  width: 170px;
+  height: 65px;
+  border: 1px solid rgb(199, 199, 199);
+  padding: 10px;
+  background-color: white;
+}

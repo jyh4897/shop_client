@@ -1,0 +1,40 @@
+* {
+    
+}
+
+.slidecontainer {
+    width: 1400px;
+}
+
+.slick-arrow slick-prev {
+    left: 25px;
+}
+.slick-arrow slick-next {
+    right: 25px;
+}
+
+.slick-list {
+    width: 1400px;
+}
+
+.box {
+    position: relative;
+    width: 1400px;
+    margin : 0 auto;
+}
+.arrowcontainer {
+    margin: 0 auto;
+    z-index: 10;
+    position: absolute;
+    top: 45%;
+    display: flex;
+    justify-content: space-between;
+    width: 1380px;
+    padding: 0 10px;
+    font-size: 40px;
+    color: green;
+}
+
+.arrow {
+    cursor: pointer;
+}

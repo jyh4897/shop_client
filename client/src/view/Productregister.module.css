@@ -1,0 +1,148 @@
+* {
+
+}
+
+
+.registercontainer {
+    width: 1400px;
+    height: 1500px;
+    margin: 20px auto;
+}
+
+.boardbox {
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.registerrow {
+    display: flex;
+    width: 1200px;
+    height: 80px;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    box-sizing: border-box;
+}
+
+
+.namebox {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background-color: rgb(236, 254, 236);
+}
+
+.productmenu {
+    width: 300px;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+
+.contentbox {
+    padding-left: 20px;
+}
+
+.productname,
+.productprice {
+    width: 600px;
+    height: 30px;
+    box-sizing: border-box;
+}
+
+.productcategory {
+    width: 120px;
+    height: 24px;
+}
+
+.thumbnailrow {
+    display: flex;
+    width: 1200px;
+    height: 200px;
+    align-items: flex-start;
+    box-sizing: border-box;
+    border-bottom: 1px solid #ddd;
+}
+
+.thumbnailbox {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.previewimg {
+    width: 100px;
+    height: 100px;
+}
+
+.thumbnailarray {
+    display: flex;
+    gap: 10px;
+}
+
+.thumbnailname {
+    display: flex;
+    gap: 10px;
+    overflow: hidden;
+}
+
+.imgname {
+    width: 100px;
+}
+
+.descriptionrow {
+    display: flex;
+    width: 1200px;
+    height: 700px;
+    align-items: flex-start;
+    box-sizing: border-box;
+    border-bottom: 1px solid #ddd;
+}
+
+.imagesbox {
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.quillbox {
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.quill {
+    width: 700px;
+    height: 600px;
+    position: relative;
+}
+
+.ql-snow {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.btnbox {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.registerbtn {
+    width: 150px;
+    height: 30px;
+    background-color: rgb(177, 220, 177);
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cancelbtn {
+    width: 150px;
+    height: 30px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+}

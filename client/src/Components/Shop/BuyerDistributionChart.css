@@ -1,0 +1,8 @@
+.buyer_chart_item {
+  display: inline;
+  /* border: 1px solid black; */
+  border-radius: 20px;
+  padding: 20px;
+  margin: 10px;
+  background-color: rgb(255, 255, 255);
+}

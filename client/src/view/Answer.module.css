@@ -1,0 +1,149 @@
+* {
+
+}
+
+.container {
+    width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.questioninfo {
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.questiondetail {
+    display: flex;
+    border-bottom: 1px solid #ddd;
+    box-sizing: border-box;
+}
+
+.detailleft {
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid #ddd;
+    box-sizing: border-box;
+}
+
+.detailname:first-child {
+    border-bottom: 1px solid #ddd;
+    box-sizing: border-box;
+}
+
+.detailname {
+    display: flex;
+    align-items: center;
+    height: 80px;
+}
+
+.leftmenu {
+    width: 150px;
+    height: 80px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    border-right: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    
+}
+
+.leftcontent {
+    width: 300px;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+
+.detailright {
+    display: flex;
+    align-items: center;
+}
+
+.question {
+    width: 150px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    border-right: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+}
+
+.rightmenu {
+    width: 150px;
+    height: 160px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    border-right: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+}
+
+.rightcontent {
+    width: 300px;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+
+.questioncontent {
+    display: flex;
+    height: 200px;
+}
+
+.answercontainer {
+    display: flex;
+    width: 900px;
+    height: 320px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-top: none;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.answer {
+    width: 150px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    box-sizing: border-box;
+    border-right: 1px solid #ddd;
+}
+
+.textbox {
+    width: 700px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.btnbox {
+    margin-top: 30px;
+    display: flex;
+    gap: 10px;
+}
+
+.enrollbtn {
+    width: 150px;
+    height: 30px;
+    background-color: rgb(177, 220, 177);
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.closebtn {
+    width: 150px;
+    height: 30px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+}

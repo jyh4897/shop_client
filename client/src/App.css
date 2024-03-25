@@ -1,0 +1,12 @@
+.App_main_height {
+  min-height: calc(100vh - 300px);
+}
+
+.header_cart_count_icon {
+  color: white;
+  background-color: red;
+  /* border: 1px solid black; */
+  padding: 0px 4px;
+  border-radius: 15px;
+  font-size: small;
+}

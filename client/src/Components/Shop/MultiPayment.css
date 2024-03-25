@@ -1,0 +1,21 @@
+.payment_btn_multi {
+  padding: 10px;
+  height: 40px;
+  margin-right: 10px;
+  font-weight: bold;
+  background-color: rgb(47, 255, 116);
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.payment_btn_kakaopay {
+  padding: 10px;
+  height: 40px;
+  margin-right: 10px;
+  font-weight: bold;
+  background-color: yellow;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}

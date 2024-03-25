@@ -1,0 +1,134 @@
+* {
+
+}
+
+.modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 700px;
+    height: 600px;
+    background-color: white;
+    border: 1px solid #000;
+    box-shadow: 24;
+}
+
+.closebox {
+    width: 660px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    background-color: rgb(202, 200, 200);
+}
+
+.closebox span {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.closebutton {
+    border: none;
+    background-color: rgb(202, 200, 200);
+    margin: 0;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    font-size: 36px;
+}
+
+.contentbox {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    border-top: 1px solid black;
+
+}
+
+.prodbox {
+    display: flex;
+    height: 150px;
+    border-bottom: 1px solid #ddd;
+}
+
+.menuname {
+    width: 200px;
+    display: flex;
+    border-right: 1px solid #ddd;
+}
+
+.prodname {
+    display: flex;
+    flex-direction: column;
+    width: 440px;
+    gap: 10px;
+    padding: 10px;
+    font-weight: 600;
+}
+
+.questionbox {
+    display: flex;
+    border-bottom: 1px solid #ddd;
+}
+
+.questiontext {
+    width: 200px;
+    height: 150px;
+    border-right: 1px solid #ddd
+}
+
+.textbox {
+    border : 1px solid gray;
+    border-radius: 2px;
+    width: 460px;
+
+}
+
+.modalprodimg {
+    width: 100px;
+    height: 100px;
+}
+
+.infor {
+    font-size: 12px;
+}
+
+.btnbox {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.inputbtn,
+.closebtn {
+    width: 80px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.inputbtn {
+    background-color: rgb(177, 220, 177);
+    border:none;
+    border-radius: 5px;
+    color: white;
+}
+
+.closebtn {
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(218, 218, 218);
+}
+
+.modalbtn {
+    background-color: rgb(177, 220, 177);
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+    font-weight: 600;
+}
